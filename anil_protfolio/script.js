@@ -207,17 +207,6 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
     document.head.appendChild(style);
 
-    // ===== PROJECT CARD HOVER EFFECTS =====
-    document.querySelectorAll('.project-card').forEach(card => {
-        card.addEventListener('mouseenter', function () {
-            this.style.transform = 'translateY(-10px)';
-        });
-
-        card.addEventListener('mouseleave', function () {
-            this.style.transform = 'translateY(0)';
-        });
-    });
-
     // ===== SKILL CARD HOVER EFFECTS =====
     document.querySelectorAll('.skill-card').forEach(card => {
         card.addEventListener('mouseenter', function () {
